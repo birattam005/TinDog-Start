@@ -47,4 +47,11 @@ h1{
 
 .title-img{
     width: 60%;
+    transform: rotate(25deg);
+}
+
+/* Features */
+
+.check-box{
+    width: 50%;
 }
