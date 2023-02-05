@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: "Montserrat";
+    font-family: 'Montserrat', sans-serif;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -13,6 +13,14 @@ h1{
     font-family:"Montserrat-Black";
     font-size: 3rem;
     line-height: 1.5;
+}
+
+h3{
+    font-family: "Montserrat-Bold";
+}
+
+p{
+    color: #8f8f8f;
 }
 
 .container-fluid{
@@ -52,6 +60,20 @@ h1{
 
 /* Features */
 
-.check-box{
-    width: 50%;
+#features{
+    padding: 7% 15%;
+}
+
+.features-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: #ef8172;
+    margin: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
 }
