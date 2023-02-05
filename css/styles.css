@@ -61,15 +61,25 @@ p{
 }
 
 .title-img{
-    width: 400px;
+    max-width: 50%;   /*400px */
     transform: rotate(25deg);
     position: absolute;
     right: 30%;
 }
 
-.custom-img{
+/* using Meadi quary to fix title image  */
+ @media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0deg);
+    }
+ }
+/* .custom-img{
     height: 500px;
-}
+} */
 
 /* Features */
 
@@ -77,7 +87,7 @@ p{
     padding: 7% 15%;
     background-color: #fff;
     position: relative;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 .features-box{
